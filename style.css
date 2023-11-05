@@ -1,0 +1,132 @@
+.bg {
+    background-color: rgb(33, 74, 90);
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navLink {
+    display: flex;
+    background-color: rgb(33, 74, 90);
+    padding: 8px;
+    width: 100%;
+}
+
+.subNavigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navSublink {
+    background-color: rgb(100, 176, 200);
+    padding: 8px 16px;
+}
+
+a.navLink, a.navSublink {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a {
+    border-bottom: 1px solid black;
+}
+
+.navLink:hover, .navSublink:hover {
+    background-color: rgb(50, 110, 139);
+}
+
+li {
+    list-style-type: none;
+    padding: 8px 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    overflow: scroll;
+    background-color: rgba(102, 168, 201, 1);
+    max-height: 90vh
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: center;
+    background-color: rgba(50, 110, 139, 1)
+}
+
+.table_countries {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_countries th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+.table_countries tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table_countries td {
+    padding: 8px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formColumnWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex: 1;
+    padding: 16px;
+}
+
+.submitButton {
+    background-color: rgb(33, 74, 90);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    align-self: center;
+    width: 100%;
+}
